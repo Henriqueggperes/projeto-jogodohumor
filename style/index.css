@@ -1,31 +1,39 @@
-body{
-    background-image: url('https://images8.alphacoders.com/755/thumb-1920-755323.jpg');
-    background-size: cover;
-    height: 100vh;
-    padding:0;
-    margin:0;
+body {
+  background-image: url("https://images8.alphacoders.com/755/thumb-1920-755323.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
 }
-#jojo-img{
+#jojo-img {
   height: 50%;
   width: 50%;
 }
-div#main-container{
-padding-left: 40%;
-height: 30%;
-width: 30%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+div#main-container {
+  padding-left: 40%;
+  height: 30%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-img#dio-gif{
-   
-    border-radius: 12px;
+#alt-button {
+  border-color: rgba(17, 177, 57, 0.774);
+  border-radius: 12px;
+  padding: 14px 40px;
+  font-size: large;
+  font-family: "Signika Negative", sans-serif;
 }
-#alt-button{
-    background-image: url()   ;
-    border-radius: 12px;
-    padding: 14px 40px;
-    font-size: large;
+img#dio-gif {
+  border-radius: 12px;
 }
 
+p {
+  background: rgba(0, 0, 0, 0.774);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  color: khaki;
+}
